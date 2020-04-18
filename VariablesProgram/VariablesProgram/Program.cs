@@ -35,6 +35,18 @@ namespace VariablesProgram
             int integ = Convert.ToInt32(numbers);
             Console.WriteLine(integ);
 
+            try
+            { 
+               var num = "1234";
+               byte b = Convert.ToByte(num);
+               Console.WriteLine(b);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("the number could not be converted to Byte");
+
+            }
         }
     }
 }
