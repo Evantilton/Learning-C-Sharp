@@ -29,6 +29,12 @@ namespace VariablesProgram
 
             Console.WriteLine(i);
             Console.WriteLine(j);
+
+            //non-compatible casting
+            var numbers = "1234";
+            int integ = Convert.ToInt32(numbers);
+            Console.WriteLine(integ);
+
         }
     }
 }
