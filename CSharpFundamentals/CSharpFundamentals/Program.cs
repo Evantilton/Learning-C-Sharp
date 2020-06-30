@@ -10,6 +10,10 @@ namespace CSharpFundamentals
             John.FirstName = "John";
             John.LastName = "Smith";
             John.Introduce();
+
+            Calculator calculator = new Calculator();
+            var result = calculator.Add(1, 2);
+            Console.WriteLine(result);
         }
     }
 }
